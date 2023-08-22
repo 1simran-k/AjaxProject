@@ -1,3 +1,6 @@
+v=window.localStorage.getItem("mydata")
+document.getElementById('mydata').innerHTML=v;
+
 const xhr = new XMLHttpRequest();
 
  document.getElementById('search-btn').addEventListener('click',() =>{
